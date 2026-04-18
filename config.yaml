@@ -1,0 +1,29 @@
+data:
+  docs_dir: data/docs
+  geo_dir: data/geo
+  index_dir: data/index
+  cache_dir: data/cache
+  db_path: data/events.db
+
+ttl:
+  alerts_sec: 300       # SACHET, IMD, NCS — 5 min
+  osm_sec: 1800         # OSM amenities — 30 min
+  reliefweb_sec: 86400  # sitreps — 24 h
+
+retrieval:
+  top_k: 6
+  rrf_k: 60
+  embed_model: BAAI/bge-small-en-v1.5
+  chunk_size: 512
+  chunk_overlap: 128
+
+agent:
+  max_tool_calls: 5
+  temperature: 0.1
+
+scoring:
+  flood_prior_weight: 0.3
+  landslide_prior_weight: 0.3
+  safe_threshold: 0.3
+  unsafe_threshold: 0.7
+  time_decay_hours: 24

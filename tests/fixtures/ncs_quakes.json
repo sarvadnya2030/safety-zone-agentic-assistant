@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "us7000n001",
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "30 km NE of Uttarkashi, Uttarakhand",
+        "time": 1713412800000,
+        "status": "reviewed",
+        "type": "earthquake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.45, 30.73, 10.0]
+      }
+    },
+    {
+      "id": "us7000n002",
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "15 km W of Imphal, Manipur",
+        "time": 1713399600000,
+        "status": "reviewed",
+        "type": "earthquake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.77, 24.81, 18.0]
+      }
+    }
+  ]
+}
